@@ -16,6 +16,6 @@ export default class HomeController extends Controller {
         env: process.env.PING_ENV
       }
     })
-    ctx.body = await ctx.service.test.sayHi('egg');
+    // ctx.body = await ctx.service.test.sayHi('egg');
   }
 }

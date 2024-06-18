@@ -15,4 +15,4 @@ RUN npm run tsc
 # 告知 Docker image 暴露 7001端口
 EXPOSE 7001
 # 执行启动命令
-CMD npx egg-scripts start --title=tjrf-lego-backend
+CMD npx egg-scripts start --title=lego-backend

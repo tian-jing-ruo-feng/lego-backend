@@ -11,7 +11,7 @@ db.createUser({
   pwd: '$MONGO_DB_PASSWORD',
   roles: [{
     role: 'readWrite',
-    db: 'lego;'
+    db: 'lego'
   }]
 })
 db.createCollection('works')

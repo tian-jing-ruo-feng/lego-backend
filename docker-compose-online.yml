@@ -5,7 +5,7 @@ services:
     container_name: lego-mongo
     volumes:
       - '.docker-volumns/mongo/data:/data/db'
-      - '$PWD/mongo-entryponit/:/docker-entrypoint-initdb.d/' # 映射运行脚本文件夹
+      - '$PWD/mongo-entrypoint/:/docker-entrypoint-initdb.d/' # 映射运行脚本文件夹
     ports:
       - 27017:27017
     env_file:
@@ -20,7 +20,7 @@ services:
     env_file: 
       - .env
   lego-backend:
-    image: registry.cn-hangzhou.aliyuncs.com/tjrf/lego:0.0.3 # alicloud arc 构建好的镜像
+    image: registry.cn-shanghai.aliyuncs.com/tjrf/lego:${{ github.ref_name }} # alicloud arc 构建好的镜像
     container_name: lego-backend
     ports:
       - 7001:7001

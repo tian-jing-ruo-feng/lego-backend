@@ -32,9 +32,11 @@ export default (appInfo: EggAppInfo) => {
     options: {
       // user: 'tjrf',
       // pass: '123456',
-      user: 'root',
-      pass: '123456',
-      authSource: 'admin' // 用户来源
+      // user: 'root',
+      // pass: '123456',
+      // authSource: 'admin' // 用户来源
+      user: process.env.MONGO_DB_USERNAME,
+      pass: process.env.MONGO_DB_PASSWORD
     }
   }
   config.bcrypt = {
@@ -52,7 +54,7 @@ export default (appInfo: EggAppInfo) => {
     client: {
       port: 6379,
       host: '127.0.0.1',
-      password: '',
+      password: process.env.REDIS_PASSWORD,
       db: 0
     }
   }
