@@ -20,7 +20,7 @@ services:
     env_file: 
       - .env
   lego-backend:
-    image: registry.cn-shanghai.aliyuncs.com/tjrf/lego:${{ github.ref_name }} # alicloud arc 构建好的镜像
+    image: registry.cn-shanghai.aliyuncs.com/tjrf/lego:${{ tag }} # alicloud arc 构建好的镜像
     container_name: lego-backend
     ports:
       - 7001:7001
