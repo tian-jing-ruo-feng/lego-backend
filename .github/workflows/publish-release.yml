@@ -37,7 +37,7 @@ jobs:
           password: '${{ secrets.ACR_PASSWORD }}'
       # 使用正确的github tag 对应 ACR tag 进行 docker build
       - name: Build image from ACR docker
-        run: docker build --tag 'registry.cn-shanghai.aliyuncs.com/tjrf/lego:${{ github.ref_name }}'
+        run: docker build --tag 'registry.cn-shanghai.aliyuncs.com/tjrf/lego:${{ github.ref_name }}' .
       # 使用标记的 tag 进行 push
       - name: Push Image to ACR
         run: docker push registry.cn-shanghai.aliyuncs.com/tjrf/lego:${{ github.ref_name }}
