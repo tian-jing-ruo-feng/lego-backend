@@ -22,7 +22,8 @@
     "clean": "ets clean",
     "build:template:dev": "npx webpack --config webpack/webpack.config.js",
     "build:template:prod": "npx webpack --env production --config webpack/webpack.config.js && npm run upload",
-    "upload": "node webpack/uploadToOSS.js"
+    "upload": "node webpack/uploadToOSS.js",
+    "release": "release-it"
   },
   "dependencies": {
     "@casl/ability": "^6.7.1",
@@ -51,6 +52,7 @@
     "mongoose-sequence": "^6.0.1",
     "nanoid": "^3.1.30",
     "node-jsonwebtoken": "^0.0.1",
+    "release-it": "^17.3.0",
     "sharp": "^0.33.4",
     "stream-wormhole": "^2.0.1",
     "vue": "^3.4.27"
