@@ -1,0 +1,399 @@
+{
+  "keys": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+      "type": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "maxAge": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "view": {
+    "defaultViewEngine": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+    "root": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-view/config/config.default.js"
+  },
+  "logger": {
+    "consoleLevel": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+    "dir": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "env": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "level": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "coreLogger": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "allowDebugAtProd": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+  },
+  "mongoose": {
+    "url": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+    "options": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-mongoose/config/config.default.js",
+    "plugins": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-mongoose/config/config.default.js",
+    "loadModel": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-mongoose/config/config.default.js",
+    "app": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-mongoose/config/config.default.js",
+    "agent": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-mongoose/config/config.default.js"
+  },
+  "bcrypt": {
+    "saltRounds": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js"
+  },
+  "session": {
+    "encrypt": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+    "maxAge": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-session/config/config.default.js"
+  },
+  "jwt": {
+    "enable": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+    "secret": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+    "match": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js"
+  },
+  "redis": {
+    "client": {
+      "port": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+      "host": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+      "password": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+      "db": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js"
+    },
+    "default": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-redis/config/config.default.js",
+    "app": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-redis/config/config.default.js",
+    "agent": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-redis/config/config.default.js",
+    "supportTimeCommand": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-redis/config/config.default.js"
+  },
+  "multipart": {
+    "whitelist": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+    "fileSize": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+    "mode": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "static": {
+    "dir": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+    "prefix": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-static/config/config.prod.js",
+    "maxFiles": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-static/config/config.default.js",
+    "maxAge": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-static/config/config.prod.js"
+  },
+  "oss": {
+    "client": {
+      "accessKeyId": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+      "accessKeySecret": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+      "bucket": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+      "endpoint": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js"
+    },
+    "default": {
+      "timeout": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-oss/config/config.default.js"
+    },
+    "useAgent": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-oss/config/config.default.js"
+  },
+  "sourceUrl": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+  "myLogger": {
+    "allowedMethod": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js"
+  },
+  "baseUrl": "/Users/hepeng/workspace/lego/lego-backend/config/config.prod.js",
+  "giteeOauthConfig": {
+    "cid": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+    "secret": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+    "redirectURL": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+    "authURL": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+    "giteeUserAPI": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js"
+  },
+  "H5BaseURL": "/Users/hepeng/workspace/lego/lego-backend/config/config.default.js",
+  "helper": {
+    "shtml": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-watcher/config/config.default.js",
+    "eventSources": {
+      "default": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-schedule/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-view-nunjucks/config/config.default.js"
+  },
+  "validate": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg-validate/config/config.default.js",
+  "env": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+  "name": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "version": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "description": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "private": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "egg": {
+      "typescript": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "declarations": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "stop": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "dev": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "debug": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "test": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "cov": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "tsc": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "ci": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "autod": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "lint": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "clean": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "build:template:dev": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "build:template:prod": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "upload": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@casl/ability": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "@types/ali-oss": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "@types/busboy": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "ali-oss": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "axios": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "busboy": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "co-busboy": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "dotenv": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "egg": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "egg-bcrypt": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "egg-jwt": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "egg-oss": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "egg-viking": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "filemanager-webpack-plugin": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "jsonwebtoken": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "lego-components": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "mongoose": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "mongoose-sequence": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "nanoid": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "node-jsonwebtoken": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "sharp": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "stream-wormhole": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "vue": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@types/jsonwebtoken": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "@types/lodash": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "@types/mocha": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "@types/node": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "@types/supertest": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "autod": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "clean-webpack-plugin": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "css-loader": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "html-webpack-plugin": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "mini-css-extract-plugin": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "tslib": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "webpack": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "webpack-cli": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "url": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+    },
+    "eslintIgnore": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "author": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "license": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "strict": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "depth": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "logging": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "port": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/hepeng/workspace/lego/lego-backend/node_modules/egg/config/config.default.js"
+}
